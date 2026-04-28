@@ -19,7 +19,7 @@ firehose.on('commit', commit => {
 				if (matches.length) {
 					const { action , path, record } = op
 					const { langs, createdAt } = record
-					console.log({ author: commit.repo, action, path, langs, createdAt, text, matches })
+					console.log({ author: commit.repo, path, langs, createdAt, text, matches })
 				}
 			}
 		}
