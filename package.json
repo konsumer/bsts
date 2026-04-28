@@ -1,0 +1,14 @@
+{
+  "name": "bsts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@skyware/firehose": "^0.5.2",
+    "aho-corasick-node": "^1.0.2"
+  }
+}
